@@ -1,0 +1,350 @@
+
+iframe{float:right;}
+.form-group{float:right;}
+form p{float:right;}
+form p span i{right:16px;}
+ul ul{margin-right:20px;}
+ol{padding-right:15px;}
+ol ol{margin-right:20px;}
+th{text-align:right;}
+table > thead > tr > th,table > tbody > tr > th,table > tfoot > tr > th,table > thead > tr > td,table > tbody > tr > td,table > tfoot > tr > td{padding-right:3px;}
+dl dd{margin-right:20px;}
+.tg-select{float:right;}
+.tg-radio,.tg-radio label,.tg-checkbox,.tg-checkbox label{float:right;}
+.tg-radio label,.tg-checkbox label{padding:0 20px 0 0;}
+.tg-radio input[type=radio] + label:before,.tg-checkbox input[type=checkbox] + label:before{right:0;}
+.tg-haslayout{float:right;}
+.tg-locationmap{float:right;}
+.tg-btn:before{right:0;}
+.tg-socialicons li{float:right;}
+.tg-roundicontext i,.tg-roundicontext span{float:right;}
+.tg-roundicontext span{padding:0 0 0 15px;}
+.tg-description{float:right;}
+.tg-stars span,.tg-stars{float:right;}
+.tg-stars span:after,.tg-stars:before{right:0;}
+.row.no-gutters{margin-left:0;margin-right:0;}
+.no-gutters > [class^="col-"],.no-gutters > [class*="col-"],.row.no-gutters > [class^="col-"],.row.no-gutters > [class*="col-"]{padding-left:0;padding-right:0;}
+.menu-item-has-children > a{padding:0 0 0 20px;}
+.mega-menu-row{float:right;}
+.tg-formtheme fieldset{float:right;}
+.tg-btnbox{float:right;}
+.tg-verticalscrollbar{float:right;}
+.mCSB_inside > .mCSB_container{margin-left:14px;}
+.tg-sidebarwrapper .mCSB_inside > .mCSB_container{margin-left:0;}
+.mCSB_scrollTools .mCSB_draggerRail{float:left;}
+.tg-leftbox{float:right;}
+.tg-rghtbox{float:left;}
+.tg-close{left:0;}
+.tg-thememodalcontent{float:right;padding:25px 30px 30px 30px;}
+.tg-thememodalcontent .tg-title{text-align:right;}
+.tg-title strong{float:right;}
+.tg-flagstrap{float:right;}
+.tg-flagstrap button[type=button]{float:right;text-align:right;}
+.tg-flagstrap button[type=button] .caret{float:left;}
+.tg-flagstrap button + ul{float:right;}
+.tg-flagstrap button + ul li{float:right;}
+.tg-pagination{float:right;}
+.tg-pagination ul{float:right;}
+.tg-pagination ul li.tg-prevpage a{border-radius:0 3px 3px 0;}
+.tg-pagination ul li.tg-nextpage a{border-radius:3px 0 0 3px;}
+.tg-breadcrumb{float:right;text-align:left;}
+.tg-breadcrumb li{float:right;}
+.tg-wrapper:before,.tg-wrapper:after{right:0;}
+.tg-twocolumns{float:right;}
+.tg-content{float:right;}
+.tg-topbar{float:right;}
+.tg-appsnav{float:right;}
+.tg-appsnav li{float:right;padding:0 0 0 10px;}
+.tg-navcurrency{float:right;}
+.tg-navcurrency li{float:right;}
+.tg-formcurencyconverter .tg-flagstrap{float:right;}
+.tg-curencyrateetc{float:left;text-align:left;}
+.tg-iconseprator:before{right:-85px;}
+.tg-lastupdate{float:right;padding:0 30px 0 0;}
+.tg-userdropdown{float:left;}
+.tg-btndropdown{float:right;}
+.tg-userdropdown .tg-btndropdown{padding:0 0 0 20px;}
+.tg-btndropdown .tg-userdp{float:right;margin:0 0 0 10px;}
+.tg-btndropdown .tg-name,.tg-btndropdown .tg-role{padding:0 52px 0 0;}
+.tg-btndropdown .tg-name{padding:3px 52px 0 0;}
+.tg-btndropdown .tg-role{padding:0 52px 3px 0;}
+.tg-themedropdownmenu li{float:right;}
+.tg-themedropdownmenu li a{float:right;}
+.tg-themedropdownmenu li a i,.tg-themedropdownmenu li a span{float:right;}
+.tg-themedropdownmenu li a i{text-align:right;}
+.tg-navigationarea{float:right;}
+.tg-navigationarea .tg-btn{float:left;}
+.tg-logo{float:right;margin:4px 0 3px 100px;}
+.tg-navigation{float:right;}
+.tg-navigation > ul{float:right;}
+.tg-navigation > ul > li{float:right;}
+.sub-menu,.mega-menu{right:0;text-align:right;}
+.sub-menu li,.sub-menu li a{float:right;}
+.sub-menu li.menu-item-has-children .sub-menu{right:100%;}
+.tg-navigation .sub-menu .tg-mobiles > a,.tg-navigation .sub-menu .tg-electronics > a,.tg-navigation .sub-menu .tg-wehicles > a,.tg-navigation .sub-menu .tg-bikes > a,.tg-navigation .sub-menu .tg-animals > a,.tg-navigation .sub-menu .tg-furniture > a,.tg-navigation .sub-menu .tg-toys > a{padding:0 50px 0 15px;}
+.tg-homebanner,.tg-innerbanner{float:right;}
+.tg-homebanner figure,.tg-innerbanner figure{float:right;}
+.tg-homebanner figure figcaption,.tg-innerbanner figure figcaption{float:right;}
+.tg-bannercontent{float:right;}
+.tg-formbannersearch .form-group{float:right;padding:0 60px 0 0;border-right:1px solid #dbdbdb;}
+.tg-formbannersearch .form-group .form-control,.tg-formbannersearch .form-group .tg-select select{padding:15px 0 15px 15px;}
+.tg-formbannersearch .tg-btn{left:0;}
+.tg-bannercontent > a{float:left;}
+.tg-categoriessearch{float:right;border-radius:10px 10px 0 0;}
+.tg-title{float:right;}
+.tg-category{float:right;}
+.tg-categoryholder{float:right;}
+.tg-categories .item{float:right;}
+.tg-category h4{right:0;}
+.tg-ads{float:right;}
+.tg-ad{float:right;}
+.tg-ad figure{float:right;}
+#nav-thumbnails img,#nav-buttons a{float:right;}
+.tg-adcontent{float:right;}
+.tg-productcagegories{float:right;}
+.tg-productcagegories li{float:right;}
+.tg-adtitle{float:right;padding:0 0 6px 32px;}
+.tg-adcontent time{float:right;}
+.tg-adprice{float:right;}
+.tg-adcontent address{float:right;padding:0 24px 0 0;}
+.tg-adcontent address:before{right:0;}
+.tg-btnphone{float:right;}
+.tg-btnphone i{padding:0 0 0 5px;}
+.tg-like{left:0;}
+.tg-adsvtwo .tg-adtitle{padding:0 0 6px 120px;}
+.tg-posts{float:right;}
+.tg-post{float:right;}
+.tg-post figure{float:right;}
+.tg-bookmarktag{right:auto;left:12px;}
+.tg-postcontent{float:right;}
+.tg-postcategories{float:right;}
+.tg-postcategories li{float:right;padding:0 10px 0 2px;}
+.tg-posttitle{float:right;}
+.tg-postmetadata{float:right;}
+.tg-postmetadata li{float:right;}
+.tg-postmetadata li i{padding:0 0 0 8px;}
+.tg-testimonial{float:right;}
+.tg-testimonial figure{float:right;margin:15px 0 15px 30px;}
+.tg-testimonial figure:before{right:0;}
+.tg-testimonial figure:after{right:0;}
+.tg-testimonialsslider .item{float:right;}
+.tg-brands figure{float:right;}
+.tg-footerbar{float:right;}
+.tg-newsletter{float:right;}
+.tg-newsletter h2{float:right;}
+.tg-formnewsletter{padding:0 40px 0 0;}
+.tg-formnewsletter fieldset .form-control{float:right;padding:15px 60px 15px 15px;}
+.tg-formnewsletter fieldset button{float:left;}
+.tg-footerinfo{float:right;}
+.tg-widget{float:right;}
+.tg-widgettitle{float:right;}
+.tg-widgetcontent{float:right;}
+.tg-widgetcontent ul{float:right;}
+.tg-widgetcontent ul li{float:right;}
+.tg-footerinfo .tg-widgettext{padding:60px 0 0 15px;}
+.tg-footerinfo .tg-widgetsearchbylocations{padding:60px 15px 60px 0;}
+.tg-followus{float:right;}
+.tg-followus strong,.tg-followus .tg-socialicons{float:right;}
+.tg-followus .tg-socialicons{padding:1px 10px 1px 0;}
+.tg-followus .tg-appsnav{float:left;}
+.tg-followus .tg-appsnav li{margin:0 10px 0 0;}
+.tg-footernav:before{left:100%;}
+.tg-footernav ul{float:right;}
+.tg-footernav ul li:before{right:-1px;}
+.tg-copyright{float:right;}
+.tg-navigationarea .tg-btndropdown .tg-name{padding:1px 52px 0 0;}
+.tg-navigationarea .tg-btndropdown .tg-role{padding:0 52px 1px 0;}
+.tg-homebannervtwo .tg-formbannersearch .form-group + .form-group{padding-left:0;}
+.tg-homebannervtwo .tg-formbannersearch .form-group .form-control{padding:10px 50px 10px 20px;}
+.tg-homebannervtwo .tg-formbannersearch .tg-inputwithicon i{right:5px;}
+.tg-brandsvtwo figure{float:right;border-right:1px solid #e5e5e5 !important;}
+.tg-brandsvtwo figure:first-child,.tg-brandsvtwo figure:nth-child(6){border-right-color:#fff !important;}
+.tg-sidebar{float:right;}
+.tg-aboutus{float:right;}
+.tg-textshortcode{float:right;}
+.tg-titleshortcode{float:right;}
+.tg-titleshortcode:before{right:0;}
+.tg-textshortcode .tg-btnbox{text-align:right;}
+.tg-textshortcode .tg-btnbox .tg-btn{float:right;}
+.tg-textshortcode .tg-btnbox .tg-btn + .tg-btn{margin:0 30px 0 0;}
+.tg-imgshortcode{float:right;}
+.tg-imgshortcode figure{float:right;}
+.tg-imgholder{float:right;}
+.tg-imgshortcode.tg-multiimg{padding:0 30px 0 0;}
+.tg-imgshortcode.tg-multiimg figure:nth-child(2){padding:109px 0 0 30px;}
+.tg-imgshortcode.tg-multiimg figure:nth-child(3){padding:0 135px 0 0;}
+.tg-statistics{float:right;}
+.tg-statistics li{float:right;}
+.tg-statisticicon{float:right;}
+.tg-statisticicon:before{right:50%;margin:0 -45px 0 0;}
+.tg-features{float:right;}
+.tg-features li{float:right;}
+.tg-feature{float:right;padding:20px 96px 20px 20px;}
+.tg-featureicon{right:15px;}
+.tg-feature .tg-title h3{text-align:right;}
+.tg-qualityservices{float:right;}
+.tg-imgshortcode figure figcaption{right:0;}
+.tg-btnplayvideo{right:50%;margin:-50px -50px 0 0;}
+.tg-qualityservices .tg-textshortcode{padding:66px 60px 66px 31.5%;}
+.tg-teamclassified{float:right;}
+.tg-team{float:right;}
+.tg-teamholder{float:right;}
+.tg-team figure{float:right;}
+.tg-team figure figcaption{right:0;}
+.tg-teamcontent{float:right;}
+.tg-pagehead{float:right;}
+.tg-sidebartitle{float:right;border-radius:5px 5px 0 0;}
+.tg-themecollapse{float:right;text-align:right;}
+.tg-collapsetitle{float:right;padding:10px 28px 10px 40px;}
+.tg-collapsetitle a span{float:right;padding:0 10px 0 0;}
+.tg-collapsetitle a span:before{right:20px;}
+.tg-themecollapsecontent{float:right;}
+.tg-themecollapsecontent .tg-inputwithicon .form-control{padding:10px 10px 10px 36px;}
+.tg-checkboxgroup{float:right;}
+.tg-checkboxgroup .tg-checkbox input[type=checkbox] + label span{float:right;}
+.tg-checkboxgroup .tg-checkbox input[type=checkbox] + label span + span{float:left;}
+.tg-themerangeslider{float:right;}
+.tg-amountbox{float:right;}
+.tg-amountbox input{float:right;}
+.tg-contenthead{float:right;}
+.tg-sortandview{float:right;}
+.tg-sortby{float:right;}
+.tg-sortby strong,.tg-sortby .tg-select{float:right;}
+.tg-sortby strong{padding:0 0 0 15px;}
+.tg-views{float:left;}
+.tg-views strong,.tg-views ul{float:right;}
+.tg-views ul li{float:right;}
+.tg-views strong{padding:0 0 0 15px;}
+.tg-applyedfilters{float:right;}
+.tg-applyedfilters ul li{float:right;margin:5px 5px 5px 18px;}
+.tg-applyedfilters ul li.alert-dismissable{padding:0 0 0 5px;}
+.tg-applyedfilters ul li.alert-dismissable a,.tg-applyedfilters ul li.alert-dismissable span{float:right;}
+.tg-adslist .tg-phonelike{float:left;}
+.tg-adslist .tg-adtitle{padding:0 0 0 120px;}
+.tg-pricebox{margin:0 0 30px 20px;border-radius:0 5px 5px 0;}
+.tg-pricebox .tg-flagstrap{float:right;}
+.tg-pricebox .tg-flagstrap button[type=button]{float:right;}
+.tg-priceandlastupdate{padding:0 15px 0 0;}
+.tg-sellercontactdetail{float:right;}
+.tg-sellertitle{float:right;}
+.tg-sellercontact{float:right;}
+.tg-memberinfobox{float:right;}
+.tg-memberinfobox figure{float:right;}
+.tg-memberinfobox figure:before{right:0;}
+.tg-memberinfo{padding:10px 10px 0 0;}
+.tg-btnseeallads{float:right;}
+.tg-sellercontact .tg-btnphone,.tg-btnmakeanoffer{padding:0 90px 0 0;}
+.tg-btnmakeanoffer{float:right;}
+.tg-sellercontact .tg-btnphone i,.tg-btnmakeanoffer i{right:0;}
+.tg-sellercontact .tg-btnphone > span,.tg-btnmakeanoffer > span{float:right;text-align:right;padding:15px 0 15px 15px;}
+.tg-sellercontact .tg-btnphone span em,.tg-sellercontact .tg-btnphone span span,.tg-btnmakeanoffer > span em,.tg-btnmakeanoffer > span span{float:right;}
+.tg-sellercontact .tg-like i:before{padding:0 0 0 10px;}
+.tg-sellerlocation{float:right;}
+.tg-safetytipstitle{float:right;}
+.tg-safetytip{float:right;}
+.tg-safetytipsslider .tg-prev,.tg-safetytipsslider .tg-next{left:10px;right:auto;}
+.tg-safetytipsslider .tg-prev{left:30px;}
+.tg-currentandtotalslides{float:right;text-align:left;}
+.tg-currentandtotalslides:before{right:30px;}
+.tg-reportthisadbox{float:right;}
+.tg-reportthisadtitle{float:right;}
+.tg-formreportthisad .tg-radio input[type=radio] + label:after{right:4px;}
+.tg-sidebar .tg-formreportthisad .form-group i{right:0 !important;left:auto !important;}
+.tg-sidebar .tg-formreportthisad .form-group textarea.form-control{padding:10px 40px 10px 10px;}
+.tg-formreportthisad .tg-btns .tg-btn{float:right;}
+.tg-formreportthisad .tg-btns .tg-btn + .tg-btn{float:left;}
+.tg-pagesequence,.tg-detail .tg-admetadata,.tg-detail .tg-postmetadata{float:right;}
+.tg-admetadata li{float:right;padding:0 22px 0 16px;}
+.tg-admetadata li:first-child{padding-right:0;}
+.tg-admetadata li + li:before{right:0;}
+.tg-detail .tg-adtitle{padding:0 0 15px 120px;}
+.tg-pagesequence li{float:right;padding:0 27px 0 18px;}
+.tg-pagesequence li:first-child{padding-right:0;}
+.tg-detail .tg-admetadata li i{padding:0 0 0 8px;}
+.tg-share{float:right;}
+.tg-share strong,.tg-share .tg-socialicons{float:right;}
+.tg-adadded{float:left;}
+.tg-detail .tg-description strong{float:right;}
+.tg-detail .tg-description p span{padding:0 0 0 15px;}
+.tg-detail .tg-description ul{float:right;}
+.tg-detail .tg-description ul li{float:right;}
+.tg-video,.tg-fullimg{float:right;}
+.tg-authorotherads{float:right;}
+.tg-authoradsslider .tg-prev,.tg-authoradsslider .tg-next{left:0;right:auto;}
+.tg-authoradsslider .tg-prev{left:50px;}
+.tg-viewallbox{float:right;}
+.tg-formmakeanoffer .form-group strong{float:right;}
+.tg-formmakeanoffer .form-group span{float:right;}
+.tg-formmakeanoffer .tg-inputwithicon .form-control{padding-right:40px;}
+.tg-allwidget{float:right;}
+.tg-sidebar .tg-widgettitle{float:right;padding:10px 28px 10px 40px;}
+.tg-sidebar .tg-formtheme .form-group i{left:0;right:auto;}
+.tg-sidebar .tg-formtheme .form-group .form-control{padding:10px 10px 10px 40px;}
+.tg-widgetcontent ul li a{float:right;}
+.tg-widgetcontent ul li a span{float:right;}
+.tg-widgetcontent ul li a span + span{float:left;}
+.tg-trendingpostsslider{float:right;}
+.tg-postslist .tg-postcontent{padding:20px 30px 20px 0;}
+.tg-boxleft{float:right;}
+.tg-boxright{float:left;}
+.tg-postdetail .tg-description blockquote{float:right;}
+.tg-postdetail .tg-description blockquote q{float:right;}
+.tg-postdetail .tg-description blockquote span{float:right;}
+.tg-author{float:right;}
+.tg-author figure{float:right;margin:0 0 0 20px;}
+.tg-author figure a:before{right:0;}
+.tg-author figure i{right:0;}
+.tg-authorhead{float:right;}
+.tg-comments{float:right;}
+.tg-comments ul{float:right;}
+.tg-comments > ul > li{float:right;}
+.tg-child{padding:20px 60px 0 0;}
+.tg-replaybox{float:right;}
+.tg-formreply .tg-inputwithicon .form-control{padding:10px 40px 10px 10px;}
+.tg-btnreply i{float:right;}
+.tg-formsearch button{left:4px;}
+.tg-faqarea{float:right;}
+.tg-collaptabpane{float:right;}
+.tg-collaptabpane h3{float:right;}
+.tg-collapsecontent{float:right;}
+.tg-contactarea{float:right;}
+.tg-breadcrumbarea{float:right;}
+.tg-404content{float:right;}
+.tg-404message{float:right;}
+.tg-404message:before{right:50%;margin:0 -115px 0 0;}
+.tg-404message h2{float:right;}
+.tg-404message h2:before{right:2%;}
+.tg-form404search{float:right;}
+.tg-form404search fieldset{float:right;}
+.tg-form404search .form-control{float:right;padding-left:200px;}
+.tg-form404search .tg-btn{left:0;border-radius:5px 0 0 5px;}
+.tg-comingsoonpage{float:right;}
+.tg-comingsooncontent{float:right;}
+.tg-logobox{float:right;}
+.tg-logobox:before{right:50%;margin:0 -115px 0 0;}
+.tg-comingsooncounter{float:right;}
+.tg-comingsooncounter ul li{float:right;}
+.tg-comingsooncounter ul li .tg-holder{float:right;}
+.tg-textbox{float:right;}
+.tg-btns{float:right;}
+.tg-packages{float:right;}
+.tg-package{float:right;}
+.tg-package:before{right:0;}
+.tg-packagehead{float:right;}
+.tg-packagebody{float:right;}
+.tg-packagebody ul{float:right;}
+.tg-packagebody ul li{float:right;}
+.tg-packagefoot{float:right;}
+.tg-loginsignup{float:right;}
+.tg-logingarea{float:right;}
+.tg-formloging .tg-checkbox{float:right;}
+.tg-forgetpassword{float:left;}
+.tg-videobox{float:right;}
+.tg-videobox figure{float:right;}
+.tg-videobox figure .tg-btnplayvideo{margin:0 -40px 0 0;}
+.tg-loginsignup .tg-title h2{text-align:right;}
+.tg-formregister .form-control{padding-right:60px;}
+.tg-sociallogingsignup{float:right;}
+.tg-sociallogingsignup li{float:right;}
+.tg-sociallogingsignup li a{float:right;padding:14px 60px 14px 14px;}
+.tg-sociallogingsignup li a i{right:0;border-radius:0 5px 5px 0;}

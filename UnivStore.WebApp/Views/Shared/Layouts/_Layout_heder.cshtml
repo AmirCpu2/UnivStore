@@ -1,0 +1,407 @@
+﻿<!doctype html>
+<!--[if lt IE 7]>		<html class="no-js lt-ie9 lt-ie8 lt-ie7" lang=""> <![endif]-->
+<!--[if IE 7]>			<html class="no-js lt-ie9 lt-ie8" lang=""> <![endif]-->
+<!--[if IE 8]>			<html class="no-js lt-ie9" lang=""> <![endif]-->
+<!--[if gt IE 8]><!-->
+<html class="no-js" lang="">
+<!--<![endif]-->
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>@ViewBag.Title</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="apple-touch-icon" href="~/apple-touch-icon.png.htm">
+    <link rel="stylesheet" href="~/Content/bootstrap.min.css">
+    <link href="~/Content/bootstrap-rtl.min.css" rel="stylesheet" type="text/css" />
+    <link rel="stylesheet" href="~/Content/normalize.css">
+    <link rel="stylesheet" href="~/Content/font-awesome.min.css">
+    <link rel="stylesheet" href="~/Content/icomoon.css">
+    <link rel="stylesheet" href="~/Content/transitions.css">
+    <link rel="stylesheet" href="~/Content/flags.css">
+    <link rel="stylesheet" href="~/Content/owl.carousel.css">
+    <link rel="stylesheet" href="~/Content/prettyPhoto.css">
+    <link rel="stylesheet" href="~/Content/jquery-ui.css">
+    <link rel="stylesheet" href="~/Content/scrollbar.css">
+    <link rel="stylesheet" href="~/Content/chartist.css">
+    <link rel="stylesheet" href="~/Content/main.css">
+    <link href="~/Content/mainRtl.css" rel="stylesheet" type="text/css" />
+    <link rel="stylesheet" href="~/Content/color.css">
+    <link rel="stylesheet" href="~/Content/responsive.css">
+
+    <script src="~/Scripts/vendor/modernizr-2.8.3-respond-1.4.2.min.js"></script>
+</head>
+<body class="tg-home tg-homeone">
+    <!--[if lt IE 8]>
+            <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="~/javascript:if(confirm('http://browsehappy.com/\n\nThis file was not retrieved because it was filtered out by your project settings.\n\nWould you like to open it from the server?'))window.location='http://browsehappy.com/'">upgrade your browser</a> to improve your experience.</p>
+    <![endif]-->
+    <!--************************************
+                    Wrapper Start
+    *************************************-->
+    <div id="tg-wrapper" class="tg-wrapper tg-haslayout">
+        <!--************************************
+                        Header Start
+        *************************************-->
+        <header id="tg-header" class="tg-header tg-haslayout">
+            <div class="tg-topbar">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+                            <ul class="tg-navcurrency">
+                                <li><a href="~/index.htm#" data-toggle="modal" data-target="#tg-modalselectcurrency">واحد پول</a></li>
+                                <li><a href="~/index.htm#" data-toggle="modal" data-target="#tg-modalpriceconverter">مبدل قیمت</a></li>
+                            </ul>
+                            <div class="dropdown tg-themedropdown tg-userdropdown">
+                                <a href="~/javascript:void(0);" id="tg-adminnav" class="tg-btndropdown" data-toggle="dropdown">
+                                    <span class="tg-userdp"><img src="~/images/author/img-01.jpg" alt="توضیح عکس"></span> <span class="tg-name">سلام! سارا عزیز</span>
+                                    <span class="tg-role">ادمین</span>
+                                </a>
+                                <ul class="dropdown-menu tg-themedropdownmenu" aria-labelledby="tg-adminnav">
+                                    <li>
+                                        <a href="~/dashboard.html">
+                                            <i class="icon-chart-bars"></i>
+                                            <span>داشبورد</span>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="~/dashboard-profile-setting.html">
+                                            <i class="icon-cog"></i>
+                                            <span>تنظمات پروفایل</span>
+                                        </a>
+                                    </li>
+                                    <li class="menu-item-has-children">
+                                        <a href="~/javascript:void(0);">
+                                            <i class="icon-layers"></i>
+                                            <span>آگهی ها</span>
+                                        </a>
+                                        <ul>
+                                            <li><a href="~/dashboard-myads.html">تمام آگهی ها</a></li>
+                                            <li><a href="~/dashboard-myads.html">آگهی ویژه</a></li>
+                                            <li><a href="~/dashboard-myads.html">آگهی های فعال</a></li>
+                                            <li><a href="~/dashboard-myads.html">آگهی های غیر فعال</a></li>
+                                            <li><a href="~/dashboard-myads.html">آگهی </a></li>
+                                            <li><a href="~/dashboard-myads.html">تمام آگهی ها</a></li>
+                                            <li><a href="~/dashboard-myads.html">تمام آگهی ها</a></li>
+                                        </ul>
+                                    </li>
+                                    <li>
+                                        <a href="~/dashboard-postanad.html">
+                                            <i class="icon-layers"></i>
+                                            <span>افزودن پست</span>
+                                        </a>
+                                    </li>
+                                    <li class="menu-item-has-children">
+                                        <a href="~/javascript:void(0);">
+                                            <i class="icon-envelope"></i>
+                                            <span>پیام</span>
+                                        </a>
+                                        <ul>
+                                            <li><a href="~/dashboard-offermessages.html">پیام</a></li>
+                                            <li><a href="~/dashboard-offermessages.html">پیام</a></li>
+                                            <li><a href="~/dashboard-offermessages.html">پیام</a></li>
+                                        </ul>
+                                    </li>
+                                    <li>
+                                        <a href="~/dashboard-payments.html">
+                                            <i class="icon-cart"></i>
+                                            <span>پرداختی ها</span>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="~/dashboard-myfavourites.html">
+                                            <i class="icon-heart"></i>
+                                            <span>مورد علاقه</span>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="~/dashboard-privacy-setting.html">
+                                            <i class="icon-star"></i>
+                                            <span>تنظیمات امنیتی</span>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="~/javascript:void(0);">
+                                            <i class="icon-exit"></i>
+                                            <span>خروج</span>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="tg-navigationarea">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+                            <strong class="tg-logo"><a href="~/index.html"><img src="~/images/logo.png" alt="company logo here"></a></strong>
+                            <a class="tg-btn" href="~/dashboard-postanad.html">
+                                <i class="icon-bookmark"></i>
+                                <span>پست</span>
+                            </a>
+                            <nav id="tg-nav" class="tg-nav">
+                                <div class="navbar-header">
+                                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#tg-navigation" aria-expanded="false">
+                                        <span class="sr-only">Toggle navigation</span>
+                                        <span class="icon-bar"></span>
+                                        <span class="icon-bar"></span>
+                                        <span class="icon-bar"></span>
+                                    </button>
+                                </div>
+                                <div id="tg-navigation" class="collapse navbar-collapse tg-navigation">
+                                    <ul>
+                                        <li class="menu-item-has-children">
+                                            <a href="~/javascript:void(0);">خانه</a>
+                                            <ul class="sub-menu">
+                                                <li><a href="~/index.html">خانه 1</a></li>
+                                                <li><a href="~/indexv2.html">خانه 2</a></li>
+                                            </ul>
+                                        </li>
+                                        <li class="menu-item-has-children current-menu-item">
+                                            <a href="~/javascript:void(0);">لیست ها</a>
+                                            <ul class="sub-menu">
+                                                <li><a href="~/adlistinggrid.html">آگهی شبکه ای</a></li>
+                                                <li><a href="~/adlistinglist.html">آگهی لیستی</a></li>
+                                                <li><a href="~/addetail.html">جزییات آگهی</a></li>
+                                            </ul>
+                                        </li>
+                                        <li class="menu-item-has-children">
+                                            <a href="~/javascript:void(0);">داشبورد</a>
+                                            <ul class="sub-menu">
+                                                <li><a href="~/dashboard.html">داشبورد</a></li>
+                                                <li><a href="~/dashboard-myads.html">آگهی داشبورد</a></li>
+                                                <li><a href="~/dashboard-myfavourites.html">علاقه مندی داشبورد</a></li>
+                                                <li><a href="~/dashboard-offermessages.html">پیام داشبورد</a></li>
+                                                <li><a href="~/dashboard-payments.html">پرداختی داشبورد</a></li>
+                                                <li><a href="~/dashboard-postanad.html">پست داشبورد</a></li>
+                                                <li><a href="~/dashboard-privacy-setting.html">تنظیمات امنیتی داشبورد</a></li>
+                                                <li><a href="~/dashboard-profile-setting.html">تنظیمات پروفایل داشبورد</a></li>
+                                            </ul>
+                                        </li>
+                                        <li class="menu-item-has-children">
+                                            <a href="~/javascript:void(0);">صفحات</a>
+                                            <ul class="sub-menu">
+                                                <li><a href="~/aboutus.html">درباره ی ما</a></li>
+                                                <li><a href="~/contactus.html">ارتباط با ما</a></li>
+                                                <li class="menu-item-has-children sub">
+                                                    <a href="~/javascript:void(0);">اخبار</a>
+                                                    <ul class="sub-menu">
+                                                        <li><a href="~/newsgrid.html">اخبار 1</a></li>
+                                                        <li><a href="~/newslist.html">اخبار لیستی</a></li>
+                                                        <li><a href="~/newsdetail.html">جزییات اخبار</a></li>
+                                                    </ul>
+                                                </li>
+                                                <li><a href="~/404error.html">404 ارور</a></li>
+                                                <li><a href="~/comingsoon.html">بزودی</a></li>
+                                                <li><a href="~/packages.html">بسته</a></li>
+                                                <li><a href="~/loginsignup.html">ورود/ثبت نام</a></li>
+                                            </ul>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </nav>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <!--************************************
+                        Header End
+        *************************************-->
+        
+        <!--************************************
+                        Body Start
+        *************************************-->
+        @RenderBody()
+        <!--************************************
+                       Body End
+        *************************************-->
+
+        <!--************************************
+                        Footer Start
+        *************************************-->
+        <footer id="tg-footer" class="tg-footer tg-haslayout">
+            <div class="tg-footerbar">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-xs-12 col-sm-12 col-md-12 col-lg-push-1 col-lg-10">
+                            <div class="tg-newsletter">
+                                <h2>عضویت در خبرنامه:</h2>
+                                <form class="tg-formtheme tg-formnewsletter">
+                                    <fieldset>
+                                        <i class="icon-envelope"></i>
+                                        <input type="email" name="email" class="form-control" placeholder="ایمیل">
+                                        <button type="button">عضویت</button>
+                                    </fieldset>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="clearfix"></div>
+            <div class="container">
+                <div class="row">
+                    <div class="tg-footerinfo">
+                        <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4 pull-right">
+                            <div class="tg-widget tg-widgetsearchbylocations">
+                                <div class="tg-widgettitle">
+                                    <h3>لورم ایپسوم یا طرح‌نما:</h3>
+                                </div>
+                                <div class="tg-widgetcontent">
+                                    <ul>
+                                        <li><a href="~/javascript:void(0);">-  لورم ایپسوم</a></li>
+                                        <li><a href="~/javascript:void(0);">-  لورم ایپسوم</a></li>
+                                        <li><a href="~/javascript:void(0);">-  لورم ایپسوم</a></li>
+                                        <li><a href="~/javascript:void(0);">-  لورم ایپسوم</a></li>
+                                        <li><a href="~/javascript:void(0);">-  لورم ایپسوم</a></li>
+                                        <li><a href="~/javascript:void(0);">-  لورم ایپسوم</a></li>
+                                        <li><a href="~/javascript:void(0);">-  لورم ایپسوم</a></li>
+                                        <li><a href="~/javascript:void(0);">-  لورم ایپسوم </a></li>
+                                        <li><a href="~/javascript:void(0);">-  لورم ایپسوم</a></li>
+                                        <li><a href="~/javascript:void(0);">-  لورم ایپسوم</a></li>
+                                    </ul>
+                                    <ul>
+                                        <li><a href="~/javascript:void(0);">-  لورم ایپسوم</a></li>
+                                        <li><a href="~/javascript:void(0);">-  لورم ایپسوم</a></li>
+                                        <li><a href="~/javascript:void(0);">-  لورم ایپسوم</a></li>
+                                        <li><a href="~/javascript:void(0);">-  لورم ایپسوم</a></li>
+                                        <li><a href="~/javascript:void(0);">-  لورم ایپسوم</a></li>
+                                        <li><a href="~/javascript:void(0);">-  لورم ایپسوم</a></li>
+                                        <li><a href="~/javascript:void(0);">-  لورم ایپسوم</a></li>
+                                        <li><a href="~/javascript:void(0);">-  لورم ایپسوم</a></li>
+                                        <li><a href="~/javascript:void(0);">-  لورم ایپسوم</a></li>
+                                        <li><a href="~/javascript:void(0);">مشاهده بیشتر</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xs-12 col-sm-12 col-md-8 col-lg-8">
+                            <div class="tg-widget tg-widgettext">
+                                <div class="tg-widgetcontent">
+                                    <strong class="tg-logo"><a href="~/javascript:void(0);"><img src="~/images/logof.png" alt="توضیح عکس"></a></strong>
+                                    <div class="tg-description">
+                                        <p>لورم ایپسوم یا طرح‌نما (به انگلیسی: Lorem ipsum) به متنی آزمایشی و بی‌معنی در صنعت...</p>
+                                    </div>
+                                    <div class="tg-followus">
+                                        <strong>فالو کنید:</strong>
+                                        <ul class="tg-socialicons">
+                                            <li class="tg-facebook"><a href="~/javascript:void(0);"><i class="fa fa-facebook"></i></a></li>
+                                            <li class="tg-twitter"><a href="~/javascript:void(0);"><i class="fa fa-twitter"></i></a></li>
+                                            <li class="tg-linkedin"><a href="~/javascript:void(0);"><i class="fa fa-linkedin"></i></a></li>
+                                            <li class="tg-googleplus"><a href="~/javascript:void(0);"><i class="fa fa-google-plus"></i></a></li>
+                                            <li class="tg-rss"><a href="~/javascript:void(0);"><i class="fa fa-rss"></i></a></li>
+                                        </ul>
+                                        <ul class="tg-appsnav">
+                                            <li><a href="~/javascript:void(0);"><img src="~/images/apps-01.png" alt="توضیح عکس"></a></li>
+                                            <li><a href="~/javascript:void(0);"><img src="~/images/apps-02.png" alt="توضیح عکس"></a></li>
+                                        </ul>
+                                    </div>
+                                    <nav class="tg-footernav">
+                                        <ul>
+
+                                            <li><a href="~/javascript:void(0);">قوانین سایت</a></li>
+                                            <li><a href="~/javascript:void(0);">قوانین استفاده</a></li>
+                                            <li><a href="~/javascript:void(0);">مبدل قیمت</a></li>
+                                            <li><a href="~/javascript:void(0);">نقشه سایت</a></li>
+                                            <li><a href="~/javascript:void(0);">اخبار</a></li>
+                                        </ul>
+                                    </nav>
+                                    <span class="tg-copyright"> &copy; تمام حقوق محفوظ است</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+        <!--************************************
+                        Footer End
+        *************************************-->
+    </div>
+    <!--************************************
+                    Wrapper End
+    *************************************-->
+    <!--************************************
+                    Theme Modal Box Start
+    *************************************-->
+    <div id="tg-modalselectcurrency" class="modal fade tg-thememodal tg-modalselectcurrency" tabindex="-1" role="dialog">
+        <div class="modal-dialog tg-thememodaldialog" role="document">
+            <button type="button" class="tg-close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">×</span></button>
+            <div class="modal-content tg-thememodalcontent">
+                <div class="tg-title">
+                    <strong>تغییر واحد</strong>
+                </div>
+                <form class="tg-formtheme tg-formselectcurency">
+                    <fieldset>
+                        <div class="form-group">
+                            <div id="tg-flagstrapone" class="tg-flagstrap" data-input-name="country"></div>
+                        </div>
+                        <div class="form-group">
+                            <button class="tg-btn" type="button">تغییر</button>
+                        </div>
+                    </fieldset>
+                </form>
+            </div>
+        </div>
+    </div>
+    <div id="tg-modalpriceconverter" class="modal fade tg-thememodal tg-modalpriceconverter" tabindex="-1" role="dialog">
+        <div class="modal-dialog tg-thememodaldialog" role="document">
+            <button type="button" class="tg-close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">×</span></button>
+            <div class="modal-content tg-thememodalcontent">
+                <div class="tg-title">
+                    <strong>مبدل قیمت</strong>
+                </div>
+                <form class="tg-formtheme tg-formcurencyconverter">
+                    <fieldset>
+                        <div class="form-group">
+                            <div id="tg-flagstraptwo" class="tg-flagstrap" data-input-name="country"></div>
+                            <div class="tg-curencyrateetc">
+                                <span>120<sup>تومان</sup></span>
+                                <p>لورم ایپسوم</p>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <span class="tg-iconseprator"><i><img src="~/images/icons/img-36.png" alt="توضیح عکس"></i></span>
+                        </div>
+                        <div class="form-group">
+                            <div id="tg-flagstrapthree" class="tg-flagstrap" data-input-name="country"></div>
+                            <div class="tg-curencyrateetc">
+                                <span>94.1723<sup>دلار</sup></span>
+                                <p>لورم ایپسوم</p>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <span class="tg-lastupdate">آخرین تغییر <time datetime="2017-08-08">1395-06-12 12:35</time></span>
+                        </div>
+                        <div class="form-group">
+                            <button class="tg-btn" type="button">تبدیل</button>
+                        </div>
+                    </fieldset>
+                </form>
+            </div>
+        </div>
+    </div>
+    <!--************************************
+                    Theme Modal Box End
+    *************************************-->
+    <script src="~/Scripts/vendor/jquery-library.js"></script>
+    <script src="~/Scripts/vendor/bootstrap.min.js"></script>
+    <script src="../../../../maps.google.com/maps/api/js-key=AIzaSyCR-KEWAVCn52mSdeVeTqZjtqbmVJyfSus-amp-language=en.htm"></script>
+
+    <script src="~/Scripts/jquery.flagstrap.min.js"></script>
+    <script src="~/Scripts/backgroundstretch.js"></script>
+    <script src="~/Scripts/owl.carousel.min.js"></script>
+    <script src="~/Scripts/jquery.vide.min.js"></script>
+    <script src="~/Scripts/jquery.collapse.js"></script>
+    <script src="~/Scripts/scrollbar.min.js"></script>
+    <script src="~/Scripts/prettyPhoto.js"></script>
+    <script src="~/Scripts/jquery-ui.js"></script>
+    <script src="~/Scripts/countTo.js"></script>
+    <script src="~/Scripts/appear.js"></script>
+    <script src="~/Scripts/gmap3.js"></script>
+    <script src="~/Scripts/main.js"></script>
+    <script src="~/Scripts/chartist.min.js" type="text/javascript"></script>
+</body>
+</html>
